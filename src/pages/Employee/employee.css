@@ -1,0 +1,34 @@
+.content {
+    margin-left: 340px; /* Ширина aside */
+    padding: 25px; /* Добавьте отступы по необходимости */
+    align-items: stretch;
+    flex-direction: row;
+    display: flex;
+}
+.btn{
+    width: 260px;
+    height: 60px;
+    margin: 25px;
+    border-radius: 37px;
+    border-color: transparent;
+    background-color: var(--desctop-background-space);
+    color: var(--text-color);
+}
+.floorPosition {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    position: relative;
+    top: 41vh;
+    right: 0;
+}
+
+
+.Profile{
+    width: 50%;
+    height: 94vh;
+}
+.history{
+    width: 50%;
+    height: 94vh;
+}

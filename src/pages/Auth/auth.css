@@ -1,0 +1,47 @@
+
+.desktopBg{
+    background-color: var(--desctop-background-space);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 690px;
+    height: 725px;
+    border-radius: 37px;
+}
+.desktopActive{
+    background-color: #C2C5CB;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 635px;
+    height: 597px;
+    border-radius: 37px;
+}
+
+.login{
+    position: absolute;
+    width: 300px;
+    height: 75px;
+    bottom: 30px;
+    border: 0;
+    border-radius: 37px;
+    color: #e2e2e2;
+    background-color: var(--button-background-color);
+}
+.auth{
+    position: relative;
+    top: 20px;
+    width: 95%;
+    height: 70px;
+    border-radius: 37px;
+    border: 0;
+    color: #f8f8f8;
+}

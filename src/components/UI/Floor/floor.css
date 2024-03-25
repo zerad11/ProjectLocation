@@ -1,0 +1,31 @@
+h4 {
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 20;
+    margin-right: 20px;
+}
+
+
+select {
+    display: flex;
+    position: relative;
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    font-size: 20pt;
+
+    border: 0;
+    text-align-last: center;
+    appearance: none;
+    background-color: var(--desctop-background-space);
+    color: var(--text-color);
+}
+
+select option {
+    text-align: center; 
+    border-radius: 20px;
+}

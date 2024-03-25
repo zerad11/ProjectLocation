@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 24pt;
+  font-family: "Inter", sans-serif;
+
+}
+html[data-theme='dark'] {
+  --background-color: #292929;
+  --button-background-color: #2468CE;
+  --desctop-background-space: #19446B;
+  --text-color: #e1e1e1;
+  --input-background-color: #f8f8f8;
+  --line-color: #4E525A;
+  --modal-background: #E5E6E9;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+html[data-theme='light'] {
+  --background-color: #E5E6E9;
+  --button-background-color: #2468CE;
+  --desctop-background-space: #2170CC;
+  --text-color: #4E525A;
+  --input-background-color: #f8f8f8;
+  --line-color: #e1e1e1;
+  --modal-background: #4E525A;
 }

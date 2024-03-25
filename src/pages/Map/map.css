@@ -1,0 +1,12 @@
+:root {
+    --background-color: var(--background-color);
+    --button-background-color: var(--button-background-color);
+    --desctop-background-space: var(--desctop-background-space);
+    --text-color: var(--text-color);
+    --input-background-color: var(--input-background-color);
+}
+
+div#root {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}

@@ -1,0 +1,22 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+html[data-theme='dark'] {
+    --background-color: #292929;
+    --button-background-color: #2468CE;
+    --desctop-background-space: #19446B;
+    --text-color: #e1e1e1;
+    --input-background-color: #f8f8f8;
+}
+
+html[data-theme='light'] {
+    --background-color: #E5E6E9;
+    --button-background-color: #2468CE;
+    --desctop-background-space: #2170CC;
+    --text-color: #4E525A;
+    --input-background-color: #f8f8f8;
+}

@@ -1,0 +1,13 @@
+.themeComponent{
+    width: 600px;
+    border-radius: 37px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #C2C5CB;
+}
+.themeComponent label {
+    margin-left: 20px; /* Добавляем отступ справа от надписи */
+}
